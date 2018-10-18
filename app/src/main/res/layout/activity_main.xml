@@ -22,6 +22,7 @@
 
     <TextView
         android:id="@+id/label1"
+        style="@style/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
@@ -33,6 +34,7 @@
         />
 
     <TextView
+        style="@style/TextTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/label1"
@@ -42,6 +44,7 @@
         />
 
     <TextView
+        style="@style/label"
         android:id="@+id/label2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,6 +57,7 @@
         />
 
     <TextView
+        style="@style/TextTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/label2"
@@ -70,6 +74,7 @@
         >
 
         <TextView
+            style="@style/label"
             android:id="@+id/label3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,6 +86,7 @@
             />
 
         <TextView
+            style="@style/TextTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label3"
@@ -92,6 +98,7 @@
     </RelativeLayout>
 
     <Button
+        style="@style/MyRadioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
